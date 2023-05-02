@@ -2,7 +2,7 @@
 
 ## Desciption
 
-My motivation to create this porject was to have an easy accesible way for future employers to see my work.  I wanted there to be a small portion about me to give employers a quick summary about myself and how i am as an employee.  I also made a section where my work will be presented in a set of boxes each label being what there respective coding language is.  Now I havent done much in this program as of now so not many of them are linked to an actual project.  The main box is linked to a previous challenge we did and it does not even have any javascript in there so i know the title is misleading but it will improve.  The rest of the boxes are linked to images of animals for the marker of this challenge to see a happy cat and grade me more leintly.  the Bottom portion of this portfolio is a contact me with information to be able to contact me such as my phone number, email, etc.  All of these are link even though some of it is not needed.  The most important thing that i learned during this challenge was how flex box works,  after watching many videos and tutorials i think i fianlly have a decent grasp on how flexbox works.
+My motivation to create this project was to have an easy accessible way for future employers to see my work.  I wanted there to be a small portion about me to give employers a quick summary about myself and how i am as an employee.  I also made a section where my work will be presented in a set of boxes each label being what their respective coding language is.  Now I haven't done much in this program as of now so not many of them are linked to an actual project.  The main box is linked to a previous challenge we did and it does not even have any javascript in there so i know the title is misleading but it will improve.  The rest of the boxes are linked to images of animals for the marker of this challenge to see a happy cat and grade me more leniently.  The Bottom portion of this portfolio is to contact me with information to be able to contact me such as my phone number, email, etc.  All of these are link even though some of it is not needed.  The most important thing that I learned during this challenge was how flex boxes work. After watching many videos and tutorials, I think I finally have a decent grasp on how flexbox works.
 
 ## Installations
 
@@ -10,7 +10,7 @@ N/A
 
 ## Usage
 
-The usage of this project is to have my work, contact information, and summary about myself in a easy accessible place for furture employers.
+The usage of this project is to have my work, contact information, and summary about myself in an easily accessible place for future employers.
 
 [This is the image showing my about me from the portfolio](./assets/images/Aboutme.png)
 [This is an image showing my work portion from the portfolio](./assets/images/Work.png)
@@ -46,7 +46,10 @@ SOFTWARE.
 
 ## Full Application
 
-[Screenshot of the deployed application]()
+[Screenshot of the deployed application](./assets/images/BetterScreen.png)
 
 ## Links
+
+Link to Github:  https://github.com/Albikras/Portfolio
+Link to deployed application:  https://albikras.github.io/Portfolio/
 
