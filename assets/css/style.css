@@ -1,9 +1,13 @@
+/*universal selector declares font family for whole code*/
 *{
     font-family: Arial, Helvetica, sans-serif;
 }
+/*makes the images hieght 200 pixels*/
 img{
     height: 200px;
 }
+/*makes background color baby blue, display set to flex, flex-wrap set to wrap, text color to white,
+and justify content set to center*/
 header{
     background-color: #89CFF0;
     display: flex;
@@ -11,25 +15,28 @@ header{
     color: white;
     justify-content: center;
 }
+/*displays li in a line and adds padding of 20 pixels*/
 header nav ul li{
     display: inline;
     padding: 20px;
 }
+/*sets a elements text color to white*/
 header nav ul li a{
     color: white;
 }
+/*sets a element to no text decoration*/
 a{
     text-decoration: none;
 }
+/*sets position to absolute*/
 .link{
     position: absolute;
     margin-left: 70%;
     font-weight: bolder;
-    
 }
-section p{
-    
-}
+/*display flex set to flex, flex-direction set to column, flex-wrap set to wrap, adds a 
+bacground image, sets background repeat to no repeat, sets background position to bottom,
+aligns items to the center, and adds a padding of 20 pixels to the top*/
 .section{
     display: flex;
     flex-direction: column;
@@ -41,42 +48,54 @@ section p{
     align-items: center;
     padding-top: 20px;
 }
+/*makes font bold and sets font text to white*/
 .scroll{
     font-weight: bolder;
     color: white;
 }
+/*adds content after the text in class scroll*/
 .scroll::after{
   content: "🖱️";
 }
+/*set display to flex, flex wrap to wrap, flex direction to column*/
 main{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
 }
+/*sets display to inline*/
 body main section{
     display: inline;
 }
+/*makes the right border baby blue and solid*/
 h2{
     border-right: solid #89CFF0;
 }
+/*display set flex, set width 100% and height 100%*/
 .row{
     display: flex;
+    width: 100%;
+    height: 100%;
 }
+/*set background color to baby blue, align text to center, set border to solid baby blue*/
 footer{
     background-color: #89CFF0;
     text-align: center;
     border: solid #89CFF0;
 }
+/*set display to inline, set padding to 2 characters, and jsutify content to space inbetween*/
 body main section nav ul li{
     display: inline;
     padding: 2ch;
     justify-content: space-between;
-
 }
-figure{
-    border: solid black;
-    display: flex;
+/*set text decoration to none, set text color to black*/
+body main section nav ul li a{
+    text-decoration: none;
+    color: black;
 }
+/*set width flex basis to 100%, border set to solid and baby blue, jsutify content set to flex start,
+add a background image, make it so the background image does not repeat*/
 .width{
     flex: 100%;
     border: solid #89CFF0;
@@ -86,55 +105,56 @@ figure{
     background-repeat: no-repeat;
     height: 300px;
 }
+/*set display to flex, flex-wrap to wrap, width to 80%, and paddint left to 5 characters*/
 .right{
     display: flex;
     flex-wrap: wrap;
     width: 80%;
+    padding-left: 5ch;
 }
+/*set width to 20%, align text to the right, set text decoration to underline*/
 .left{
     width: 20%;
     text-align: right;
     padding-right: 2ch;
     text-decoration: underline;
 }
+/*set body margin to 0*/
 body{
     margin: 0;
 }
+/*set flex basis to 20%, justify content to the start, border set to solid baby blue, backgound size
+set to 1005 height and width, no repeat*/
 .code{
     flex: 20%;
     justify-content: flex-start;
     border: solid #89CFF0;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 300px;
 }
+/*add an image to class react*/
 .react{
     background-image: url(../images/betterreact.webp);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    height: 300px;
 }
+/*add an image to class java*/
 .java{
     background-image: url(../images/Java.png);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    height: 300px;
 }
+/*add an images to class python*/
 .python{
     background-image: url(../images/betterpython.png);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    height: 300px;
 }
+/*add an image to class C++*/
 .c{
     background-image: url(../images/evenbetterc++.png);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    height: 300px;
 }
+/*add an image to class amazon*/
 .amazon{
     background-image: url(../images/AmazonWebServices.png);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    height: 300px;
 }
+/*set position to absolute, background color to baby blue, border to solid and baby blue,
+top border radius set to 10 px, bottom border radius set to 10px, and text color white*/
 h3{
     position: absolute;
     background-color: #89CFF0;
@@ -143,6 +163,17 @@ h3{
     border-top-right-radius: 10px;
     color: white;
 }
+/*set hover to filter a drop shadow behind the content*/
 body main section figure:hover {
     filter: drop-shadow(20px 20px 20px black);
+}
+/*set hover to filter a drop shadow behind content and underline*/
+header nav ul li a:hover{
+    filter: drop-shadow(20px 20px 20px black);
+    text-decoration: underline;
+}
+/*set hover to filter a drop shadow behind content and underline*/
+body main section nav ul li a:hover{
+    filter: drop-shadow(20px 20px 20px black);
+    text-decoration: underline;
 }
