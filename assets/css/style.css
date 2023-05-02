@@ -1,55 +1,148 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
 }
 img{
-    height: 300px;
-    width: 300px;
-}
-.scroll{
-    text-align: center;
+    height: 200px;
 }
 header{
-    background-color: rgb(0, 85, 255);
+    background-color: #89CFF0;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    justify-content: center;
 }
-header nav ul{
-    list-style: none;
-    text-align: right;
+header nav ul li{
+    display: inline;
+    padding: 20px;
+}
+header nav ul li a{
+    color: white;
 }
 a{
     text-decoration: none;
 }
-body{
-    background-color: gray;
+.link{
+    position: absolute;
+    margin-left: 70%;
+    font-weight: bolder;
+    
+}
+section p{
+    
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-image: url("../images/Blue_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    align-items: center;
+    padding-top: 20px;
+}
+.scroll{
+    font-weight: bolder;
+    color: white;
+}
+.scroll::after{
+  content: "🖱️";
 }
 main{
-    background-color: gray;
-}
-
-.a{
-    justify-content: right;
-}
-.x{
     display: flex;
-    justify-content: space-evenly;
     flex-wrap: wrap;
-    gap: 1em;
-    flex-direction: row;
+    flex-direction: column;
 }
-.row-box{
-    justify-content: right;
-    align-items: right;
+body main section{
+    display: inline;
+}
+h2{
+    border-right: solid #89CFF0;
+}
+.row{
+    display: flex;
+}
+footer{
+    background-color: #89CFF0;
+    text-align: center;
+    border: solid #89CFF0;
+}
+body main section nav ul li{
+    display: inline;
+    padding: 2ch;
+    justify-content: space-between;
+
+}
+figure{
     border: solid black;
-    min-width: none;
-    max-width: 300px;
-    order: 1;
+    display: flex;
 }
-.aside{
-    min-height: 400px;
-    max-width: 400px;
- flex-direction: column;
- align-items: center;
- text-align: center;
- border: solid black;
- order: 2;
+.width{
+    flex: 100%;
+    border: solid #89CFF0;
+    justify-content: flex-start;
+    background-image: url(../images/JS.webp);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+.right{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+}
+.left{
+    width: 20%;
+    text-align: right;
+    padding-right: 2ch;
+    text-decoration: underline;
+}
+body{
+    margin: 0;
+}
+.code{
+    flex: 20%;
+    justify-content: flex-start;
+    border: solid #89CFF0;
+}
+.react{
+    background-image: url(../images/betterreact.webp);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+.java{
+    background-image: url(../images/Java.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+.python{
+    background-image: url(../images/betterpython.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+.c{
+    background-image: url(../images/evenbetterc++.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+.amazon{
+    background-image: url(../images/AmazonWebServices.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+h3{
+    position: absolute;
+    background-color: #89CFF0;
+    border: solid #89CFF0;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+}
+body main section figure:hover {
+    filter: drop-shadow(20px 20px 20px black);
 }

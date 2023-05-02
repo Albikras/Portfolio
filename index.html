@@ -1,82 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
     <title>Portfolio</title>
-</head>
-<header>
-<img src="./assets/images/LB.jpg" alt="My name">
-<nav>
-    <ul>
-        <li><a href="whatever">About Me</a></li>
-        <li><a href="Whatever">Work</a></li>
-        <li><a href="whatever">Resume</a></li>
-        <li><a href="whatever">Contact Me</a></li>
-    </ul>
-</nav>
-<p class="scroll">Scroll For More Info</p>
-</header>
-<section>a</section>
-<body>
+  </head>
+  <header>
+    <h1>Albi Krasniqi</h1>
+    <div class="link"><!--element div tag declare class link-->
+    <nav>
+      <ul>
+        <li><a href="#AboutMe">About Me</a></li><!---->
+        <li><a href="#Work">Work</a></li><!---->
+        <li><a href="#contact">Contact Me</a></li><!---->
+        <li><a href="https://docs.google.com/document/d/1K_9RNJ1QSXjga7q5ubyXBl-teAmdYpVSRD1jSXBj8V4/edit">Resume</a></li><!---->
+      </ul>
+    </nav>
+    </div>  
+  </header>
+  <section class="section"><!---->
+    <img src="./assets/images/LB.jpg" alt="My name" class="myname" /><!---->
+    <p class="scroll">Scroll for more</p><!---->
+  </section>
+  <body>
     <main>
-        <section class="x a">
-            <div class="aside">
-                <h1>About Me</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam excepturi architecto quos itaque quasi et modi accusantium velit neque doloremque eum explicabo quo perspiciatis in, dicta hic provident laboriosam obcaecati!</p>
+      <section class="row"><!---->
+        <h2 id="#AboutMe" class="left">About Me</h2><!---->
+        <p class="right"><!---->
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae rem ab,
+          iure optio earum dicta ut minima molestiae! Maiores, temporibus.
+          Magnam amet repellat quaerat omnis nihil explicabo vel fugit
+          consequatur itaque facilis, reiciendis ut totam eum sint molestiae
+          culpa ab iure rem ratione, sapiente officia? Consequuntur eaque
+          corrupti quod tempora temporibus labore deleniti quidem totam soluta
+          excepturi laboriosam veritatis, sapiente iusto ipsa laborum unde ut,
+          at enim. Eum ut, quasi, quo, sit aliquid doloremque voluptatem
+          consequatur repellendus nam accusamus saepe. Incidunt odit commodi
+          doloremque officiis et ad. Illo neque obcaecati illum veniam nemo,
+          accusamus dignissimos provident facilis molestiae iusto velit.
+        </p>
+      </section>
+      <section class="row"><!---->
+        <h2 id="Work" class="left">Work</h2><!---->
+        <div class="right"><!---->
+          <a href="https://albikras.github.io/refactoring/"><figure class="width"><!---->
+            <h3>Html/CSS/Javascript</a></h3><!---->
+          </figure></a>
+          <figure class="code react"><!---->
+            <h3>React</h3>
+          </figure>
+          <figure class="code java"><!---->
+            <h3>Java</h3>
+          </figure>
+          <figure class="code python"><!---->
+            <h3>Python</h3>
+          </figure>
+          <figure class="code c"><!---->
+            <h3>C++</h3>
+          </figure>
+          <figure class="code amazon"><!---->
+            <h3>Amazon Web Services</h3>
+          </figure>
+        </div>
+      </section>
 
-            </div>
-            <div class="row-box">
-
-                    <h1 class="header">Html/CSS/Javascript</h1>
-                    <img src="./assets/images/JScript.png">
-
-            </div>
-            <div class="row-box">
-
-                    <h1 class="header">React</h1>
-                    <img src="./assets/images/React.png">
-
-            </div>
-            <div class="row-box">
-
-                    <h1 class="header">Java</h1>
-                    <img src="./assets/images/Java.png">
-
-            </div>
-            <div class="row-box">
-
-                    <h1 class="header">Python</h1>
-                    <img src="./assets/images/Python.png">
-
-            </div>
-            <div class="row-box">
-
-                    <h1 class="header">C++</h1>
-                    <img src="./assets/images/C++.png">
-
-            </div>
-            <div class="row-box">
-
-                    <h1 class="header">Amazon Web Services</h1>
-                    <img src="./assets/images/AmazonWebServices.png">
-
-            </div>
-    </section>
-    </main>
-
-    
-</body>
-<footer>
-    <h3>Contact Me</h3>
-        <nav>
-            <ul>
-                <li><a href="whatever">Email</a></li>
-                <li><a href="whatever">Phone Number</a></li>
-            </ul>
+      <section class="row"><!---->
+        <h2 id="contact" class="left">Contact</h2><!---->
+        <nav class="right"><!---->
+          <ul>
+            <li><a href="krasniqi1287@gmail.com">krasniqi1287@gmail.com</a></li><!---->
+            <li><a href="whatever">905-325-6867</a></li><!---->
+            <li><a href="https://www.instagram.com/albikrasniqi1/">Instagram: albikrasniqi1</a></li><!---->
+            <li><a href="https://github.com/Albikras">Github</a></li><!---->
+            <li><a href="whatever">Twitter</a></li><!---->
+            <li><a href="https://music.apple.com/us/library/all-playlists/?l=en-US">Apple Music</a></li><!---->
+          </ul>
         </nav>
-
-</footer>
+      </section>
+    </main>
+  </body>
+  <footer>
+    <h4>Made 2023-05-01</h4>
+  </footer>
 </html>
