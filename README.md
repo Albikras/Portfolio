@@ -47,6 +47,8 @@ SOFTWARE.
 ## Full Application
 
 [Screenshot of the deployed application](./assets/images/BetterScreen.png)
+[Screenshot of aplication on a surface dou](./assets/images/Surfacedou.png)
+[Screenshot of application on iphone SE](./assets/images/IphoneSE.png)
 
 ## Links
 
